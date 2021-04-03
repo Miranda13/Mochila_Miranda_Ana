@@ -1,0 +1,27 @@
+Línea de comandos:
+
+Es la forma de darle instrucciones a la computadora de forma sencilla sin distracciones.
+
+Interfaces:
+
+Stdin Entrada
+Stdout Salida
+Stderr Errores
+
+Se listan los comandos básicos a usar:
+
+comandos + argumento flags
+
+pwd - indica el directorio actual
+cd - cambiar de directorio
+ls - listar archivos en un directorio
+mv - cambia el nombre de un archivo
+mkdir - crear un directorio
+touch - crear un archivo 
+rm - borrar un archivo 
+gedit - crear y editar archivos de texto
+cp - copiar archivos 
+
+Rutas relativas - a partir de mi ubicación
+
+Rutas absoluta - ubicación desde el orígen
