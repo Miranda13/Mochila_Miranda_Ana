@@ -1,0 +1,20 @@
+Control de versiones con git
+
+Git es un software para el control de versiones el cual hace control mediante commits de un
+directorio, es posible manejar git desde CLI con sencillos comandos para controlar las 
+versiones de los archivos; también existen programas que permiten hacer las instrucciones 
+de manera grafica.
+
+Ventajas:
+
+- Comunicar cambios.
+- Manejar diferentes versiones.
+- Trabajar de forma colaborativa.
+
+Comandos útiles:
+
+- git config muestra las credenciales con que se estan creando los cambios
+- git status indica el estado del repositorio
+- git init inicia el seguimiento de cambios
+- git add . añadir todos los archivos
+- git add nombrearchivo agrega un archivo en especifico
