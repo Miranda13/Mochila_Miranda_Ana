@@ -1,0 +1,32 @@
+Hardware y software
+
+Dispositivos internos -> Necesarios para el funcionamiento adecuado del computador.
+Dispositivos externos -> Añade funciones pero no son estrictamente necesarios.
+
+CPU unidad central de procesos - proceso
+Ejecuta instrucciones lógicas. El procesador para funcionar lee datos e instrucciones
+de la memoria RAM, recibe las instrucciones de los dispositivos de entrada y entrega los 
+resultados a través de los dispositivos de salida. La velocidad depende de:
+
+- Frecuencia
+- Núcleos
+- Subprocesos o hilos
+- Memoria caché
+
+Núcleo -> subprocesador de una CPU
+
+Hilo -> Ayuda a dividir las tareas en procesos y los alterna de modo que se ejecuten casi 
+que al mismo tiempo, su función es aprovechar los tiempos de espera.
+
+Caché -> Es la memoria más rápida del sistema, almacena tareas recurrentes para el usuario 
+para que la memoria RAM pueda acceder a instrucciones en menos tiempo.
+
+IPC número de instrucciones que el procesador puede ejecutar en cada cilo de reloj interno.
+
+GPU unidad de procesamiento gráfico
+
+RAM almacena las instrucciones que debe ejecutar la CPU
+
+Puente norte esta compuesto por las unidades de procesamiento lógico y gráfico.
+
+Puente sur esta compuesto por las unidades de periféricos y de almacenamiento permanente.
