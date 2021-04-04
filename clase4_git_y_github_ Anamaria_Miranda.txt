@@ -1,0 +1,11 @@
+1.¿Quien invento el sistema de control de versión git y por qué?
+Lo invento Linus Torvalds en el año 2005, porque el sistema de versionamiento de la empresa en
+la que trabajaba dejó de ser gratuita.
+
+2.¿A quien pertenece GitHub y por qué?
+Pertenece a Microsoft, fue adquirida por ellos en el 2018 despues de que en febrero del mismo 
+año git sufriera el segundo mayor ataque de denegacion de datos (DDoS)
+
+3.¿Hay otra forma de trabajar en GitHub que no sea la terminal?
+Se puede trabajar GitHub desde la pagina oficial o través de programas o aplicaciones de
+versionmiento como SourceTree, GitKraken entre otros. 

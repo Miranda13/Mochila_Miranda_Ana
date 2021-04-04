@@ -1,0 +1,10 @@
+GitHub
+
+Github es el repositorio en la nube para usar con git más popular en el mundo,
+este permite subir a la red los repositorios que se deseen, modificarlos, borrarlos y la
+posibilidad de hacer contribuciones en equipo.
+
+Los comandos más útiles para usar con repositorios remotos son:
+
+git push - sube los cambios generados a la nube
+git pull - descarga los cambios que esten en la nube 
