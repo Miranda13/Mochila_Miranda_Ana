@@ -1,0 +1,129 @@
+Procesos
+
+Asume las instrucciones para que la CPU ejecute a través del plan de acción.
+Ejecución de un programa, el sistema operativo da el orden -> cambio de proceso
+los procesos se crean y se eliminan
+
+Estados de los procesos: 
+- Nuevo  -> se crea el proceso
+- Listo -> se carga en la memoria, admitido
+- Ejecución -> planificador,  se ejecuta
+- Salida -> cuando se termina el proceso 
+- Bloqueado -> interrupción, se interrumpe una ejecución
+
+IPC: señales, para gestionar alguna alerta, memoria compartida, recursos para que
+    puedan intercambiar información.
+
+    Dos procesos pueden compartir la memoria y compartir información, que se hace cuando
+    un proceso no puede ejecutarse automáticamente como las llamadas al sistema
+
+IPC: genera subtareas para que el proceso padre pueda ejecutarse.
+
+----------------------------------------------------------------------------------
+
+Comunicación entre procesos
+
+Procesos independientes: no se afectan
+
+Procesos cooperativos: pueden afectar y ser afectados por otros procesos
+
+Algunos procesos carecen de información por lo que deben consultarl para ejecutarse.
+CPU es más eficiente y velox porque genera modularidad
+
+IPC = inter process communication
+
+Métodos/modelos de comunicación: 
+    la memoria compartida: memoria compartida para los procesos, toma recursos de otro para
+    completar los propios
+                        ventaja: es más económica que un multiprocesador, son compatibles
+                        con cualquier tipo de computadora.
+                        desventajas: los erroes no existen como exclusión mutua
+    los pasos de mensajes: intermedio a través del kernel para tomar recursos de otros 
+    procesos
+
+------------------------------------------------------------------------------------------
+Sincronixación.
+
+Ciclo de vida de un proceso.
+
+- Nuevo  
+- Listo  
+- Ejecución  
+- Salida 
+- Bloqueado -> cuando un proceso entra en espera crea una lista de pendiente por ejecutar
+
+Los procesos se pueden ejecutar en paralelo pero su registro es uno a la vex
+Área crítica donde las operaciones de los procesos estan en cola y esperan en orden de 
+solicitud resolverse por el procesador.
+
+Planificar el uso del CPU
+Políticas o técnicas
+    FIFO first in, first out, se le asigna tiempo de ejecución 
+    SJF shortest job first, se ejecuta primero la tarea del proceso que gaste menor tiempo de ejecución
+            si existen proceso simultaneos
+    STRF shortest remaining time, si se esta ejecutando una tarea del proceso y llega uno que se puede
+        resolver en menor tiempo, se interrumpe el primero y se depura el segundo, luego
+        se vuelve al proceso 1 donde estaba
+    ROUND ROBIN se asigna un tiempo de procesamiento (quantum) fijo y se ejecutan las tareas del proceso 
+        si no se termina, pasa al final de la cola y se siguen con las tareas
+    Retroalimentación multinivel
+    Planificación por comportamiento
+    Colas multiples, cuando es posible agrupar en distintos grupos los procesos y asignarlos a 
+        diferentes colas según sus necesidades y tipos
+
+Inanición, la cola de procesos colapsa porque le niega recursos a otros procesos que necesitan
+    ejecutarse 
+
+Procesador -> conjunto de transistores que hacen operaciones binarias mediante pulsos eléctricos
+Proceso -> conjunto de operaciones que toman una porcion del procesador para ejecutar la tarea
+
+Hilos de ejecución
+    
+    División de tareas / secuencia de tareas: son porciones de codigo que pueden fraccionarse y
+    ejecutarse en simulatanea en comparacion con otros subprocesos (se comparten recursos y memoria)
+
+                                    sistemas de un nucleo
+--------------------------------------------------------------------------------------------
+Desventajas de                          | Ventajas
+- Menor capacidad de respuesta          |- No presenta errores
+- Comportamiento predecible             |- Menores bloqueos de recursos
+
+                                    sistemas de varios nucleos
+--------------------------------------------------------------------------------------------
+Desventajas de                                      | Ventajas
+- Sincronixación compleja                           |- Excelente capacidad de respuesta
+- Comportamiento impredecible, puede tener errores  | Trabajo en paralelo
+
+Tiempo de servicio
+
+
+Tiempo de servicio
+Es el tiempo que tarda en ejecutarse un proceso, donde se incluye el tiempo de carga del programa 
+en memoria, el tiempo de espera en la cola de procesos separados, el tiempo de ejecución en el 
+procesador y el tiempo consumido en operaciones de entrada/salida.
+
+Tiempo de respuesta
+Es la velocidad con que el ordenador da la respuesta a una petición. Depende mucho de la velocidad 
+de los dispositivos de entrada y salida.
+
+Tiempo de procesador
+Es el tiempo que un proceso está utilizando el procesador sin contar el tiempo que se encuentra 
+bloqueado por operaciones de entrada/salida.
+
+Rendimiento
+Es el número de trabajos o procesos realizados por unidad de tiempo, que debe ser lo mayor 
+posible.
+
+Tiempo de ejecución
+Es idéntico al tiempo de servicio menos el tiempo de espera en la cola de procesos separados;
+es decir, es el tiempo teórico que necesitaría el proceso para ser ejecutado si fuera el único 
+presente en el sistema.
+
+Tiempo de espera
+Es el tiempo que los procesos están activos, pero sin ser ejecutados, es decir, los tiempos 
+de espera en las distintas colas.
+
+Eficiencia
+Se refiere a la utilización del recurso más caro en un sistema, el procesador, que debe estar 
+el mayor tiempo posible ocupado para lograr así un gran rendimiento.
+

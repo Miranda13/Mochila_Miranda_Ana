@@ -1,0 +1,22 @@
+Memorias
+
+Memoria principal
+
+RAM random access memory - volátil
+ROM read only memory
+Caché - mayor velocidad
+
+Memoria secundaria
+
+Guardar información de manera permanente. Almacenamiento de información de manera:
+
+Óptica DVD, CD blue ray
+Magnética Disco duro
+Estado sólido SSD, pendrive
+
+Registros de la CPU
+PC program counter
+IR instructions register
+MAR memory address register
+MDR memory data register
+Accumulator

@@ -1,0 +1,124 @@
+Sistemas operativos 
+
+El sistema operativo es un conjunto de software que sirven de comunicación
+usuario-dipositivo. El software administra los recursos ofrecidos por el hardware,
+también administra los dispositivos de entrada y salida, y la cola de procesos.
+
+Según licencias
+- Open source
+- Propietary software
+
+UNIX, windows server, red hat
+
+Multiusuario, monousuario. Los permisos de cada usuario son distintos
+
+Los recursos administrados por el sistema operativo son:
+    - Gestionar la memoria de acceso aleatorio y ejecutar las aplicaciones asignando los
+    recursos necesarios.
+    - Administrar la CPU.
+    - Direccionar las entradas y salidas de los datos por medio de periféricos.
+    - Administrar la información
+    - Dirigir las autorixaciones de uso para el usuario.
+    - Administrar los archivos.
+
+TIPOS DE SISTEMAS OPERATIVOS 
+
+- Administración de usuarios: multiusuario y monousuario.
+    multi: permite que varios usuarios ejecuten simultáneamente sus programas.
+    mono: solo permite que un usuario ejecute programas.
+- Administración de tareas: multitarea y monotarea.
+    multi: permite ejecutar varios procesos al mismo tiempo.
+    mono:   permite ejecutar un proceso a la vex.
+- Gestión de recursos: centralixado, distribuido.
+    centralixado: permite usar los recursos de un solo ordenador.
+    distribuido: el sistema operativo ejecuta los procesos de mas de un ordenador al mismo 
+    tiempo.
+- Estructura interna
+    monolítica: un solo programa con rutinas enlaxadas que se comunican, hechos a medida, 
+    máquina virtual: multiprogramacion y maquina extendida , 
+    cliente-servidor: proposito general, la red le permite compartir el disco, 
+    jerárquica: separación definida y clara de los recursos: memoria, interprete, aplicacion
+
+Generación 0 - 1940
+Las computadoras electrónicas digitales no tenían sistema operativo. Los programas, 
+por lo regular, manejaban un bit a la vez, en columnas de switchs mecánicos. 
+Los programas de lenguaje máquina manejaban tarjetas perforadas.
+
+Generación 1 - 1945 - 1955 
+Tubos de vacío y tableros enchufables
+
+Se lograron construir máquinas calculadoras usando tubos de vacío. Estas máquinas eran 
+enormes y ocupaban cuartos enteros con decenas de miles de tubos de vacío
+
+Generación 2 1955 - 1965
+Transistores y sistemas de lote
+
+Para ejecutar un programa, un programador escribía primero el programa en papel 
+(en FORTRAN o ensamblador) y luego lo perforaba en tarjetas. Después, llevaba el grupo de 
+tarjetas al cuarto de entrada y lo entregaba a uno de los operadores.
+
+
+Generación 3 (1965–1970)
+Circuitos integrados ( CI ) y multiprogramación
+Las máquinas diferían solo en el precio y el rendimiento (memoria máxima, velocidad 
+del procesador, número de dispositivos de E/S permitidos, entre otros). IBM trató de 
+resolver simultáneamente ambos problemas introduciendo la System/360, puesto que todas 
+las máquinas tenían la misma arquitectura y conjunto de instrucciones, los programas 
+escritos para una máquina podían ejecutarse en todas las demás, al menos en teoría. 
+Dividir la memoria en varias secciones, con un trabajo distinto en cada partición. 
+Mientras un trabajo estaba esperando que terminara su E/S, otro podía estar usando la CPU. 
+Si se podían tener en la memoria principal suficientes trabajos a la vez, la CPU podía 
+mantenerse ocupada casi todo el tiempo. También, tenían la capacidad de leer trabajos de 
+las tarjetas al disco tan pronto como se llevaban al cuarto de computadoras. Luego, cada 
+vez que un trabajo terminaba su ejecución, el sistema operativo podía cargar uno nuevo 
+del disco en la partición que había quedado vacía y ejecutarlo.
+
+Cuarta generación (1980– a nuestros días)
+Computadoras personales
+
+Con la invención de los circuitos integrados a gran escala (LSI), chips que contienen 
+miles de transistores en un cm2 de silicio, nació la era de la computadora personal.
+
+Dos sistemas operativos dominaron inicialmente el campo de las computadoras personales 
+y las estaciones de trabajo: MS-DOS de Microsoft y UNIX. A partir de 1995 se produjo una 
+versión autosuficiente de WINDOWS.
+
+------------------------------------------------------------------------------------------
+
+Kernel - cerebro del sistema operativo
+
+Es una parte del sistema operativo encargada de interactuar entre las diferentes aplicaciones 
+y sus necesidades con los recursos que ofrece el dispositivo para ejecutarlo.
+
+Funciones:
+- Asignar o quitar recursos del hardware para que se ejecuten con el software
+- Asigna prioridades a través de las llamadas al sistema.
+
+Monolítico -> un solo codigo de muchas lineas con todos los drivers, servicios,
+            se desperdicia memoria porque se traen drivers para multiples dispositivos que 
+            puede operar pero no usar. Se comunica directamente
+Microkernel -> solo incluye las instrucciones básicas de administración en un pequeño
+            espacio de memoria, es necesario diseñar un microkernel por cada dispositivo.
+            Se comunica a través de mensajes
+
+Kernel hibrido -> Es un microkernel con mas codigo no esencial
+
+Nanokernel -> Es un microkernel mas reducido más complejo de crear. Se comunica por mensajes.
+
+Evita daños en el sistema operativo
+
+--------------------------------------------------
+
+Llamada al sistema: forma en que un programa solicita una acción al sistema operativo,
+clasificación de llamadas al sistema
+
+Gestión de control: supervisa el inicio, creación, detención y finalixación de los procesos.
+
+Gestión de archivos: incluyen la creación, eliminación, apertura, cierre, escritura y la lectura
+de archivos.
+
+Gestión de dispositivos: administra los recursos disponibles, como ser el almacenamiento
+
+Gestión de información: asegura la puntualidad e integridad de la información.
+
+Comunicación entre procesos: Coordina la interacción entre los distintos procesos y aplicaciones.
