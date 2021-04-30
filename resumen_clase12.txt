@@ -1,0 +1,37 @@
+Redes
+Conjunto de dispositivos conectados entre si para enviar y recibir información y recursos.
+
+Se clasifican por: 
+**Alcance
+    PAN: red de area personal ejemplo: bluetooth.
+    LAN: red de area local de 1 a 5 km
+    MAN: red de area metropolitana de 1 a 60 km
+    WAN: red de area amplia, atraviesa paises de 100 a 1.000 km.
+
+**Autenticación
+Redes privadas y públicas
+
+**Por tipo de conexión
+Medios guiados: Cable coaxial, fibra óptica, par de cobre.
+Medios no guiados ó inalámbrico: infrarrojo, bluetooth, wifi.
+
+**Por grado de difusión
+Extranet: red privada para compartir de forma segunra información propia de un negocio.
+Intranet: red privada de ordenadores que usa internet para compartir parte de sus sistemas
+de información dentro de una organixación.
+Internet: Alcance mundial, garaantix que las redes heterogeneas que la componen funcionen 
+como una red lógica única.
+
+-----------------------------------------------------------------------------------
+Características de una red de datos:
+* Velocidad, bajada de archivo, subida de archivos, paquetes: bloques de información.
+* Seguridad
+* Confiabilidad
+* Escalabilidad
+* Disponibilidad
+-----------------------------------------------------------------------------------
+Routers:
+Puerta de enlace:actúa de interfaz de conexión entre aparatos o dispositivos, y también 
+posibilita compartir recursos entre dos o más ordenadores. Su propósito es traducir la 
+información del protocolo utilizado en una red inicial, al protocolo usado en la red de destino.
+Asignación de IP: dinámica y estática.

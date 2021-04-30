@@ -1,0 +1,77 @@
+Máquinas virtuales
+Es un software que puede soportar varios sistemas operativos dentro.
+
+Se crea sobre el hipervisor
+
+* Tipos de hipervisor
+    1. Corre directamente sobre la computadora.
+    2. Corre sobre un sistema operativo
+
+Tipos:
+
+- Sistemas - emula un sistema operativo completo.
+- Procesos - emula un proceso en específico. (ej Vagrant)
+
+Ventajas: instalar programas de otros SO, entorno de seguridad, mejora el aprovechamiento del 
+hardware, almacenamiento virtual.
+
+Desventajas: menos eficientes, tiene que solicitar de recursos, pueden disminuir el rendimiento
+del computador.
+---------------------------------------------------------------------------------------
+Contenedores
+
+Empaquetación de software, que incluye la aplicación y todas las dependencias de ejecución.
+Software, con librerías y el sistema operativo donde corre, se empaqueta en un espacio virtual.
+
+- Funciona de manera conjunta con el sistema operativo, funcionan por capas.
+- No requieren hipervisor, son más rápidos
+
+* Crear una imagen (se toma imagen base)
+* docker build
+* docker publish
+* docker pull
+* docker run 
+
+Ventajas de usar Contenedores
+- Fácil configuración, es posible usarla en amplia variedad de entornos.
+- Menor tamaño.
+- Mejora la productividad, ejecuta la aplicación en un entorno aislado y reduce los recursos.
+- Gestión múltiple.
+- Permite especificar el estado del contenedor dentro de un cluster y los SERVICIOS.
+- Isolación, permite ejecutarse los procesos en entornos aislados.
+- Ofrece configuraciones por defecto para ofrecer mayor seguridad.
+
+Administradores de contenedores
+
+Orquestadores: herramienta que automatixa el despliegue, escalamiento, administración,
+comunicación y disponibilidad del software ejecutandose en contenedores.
+
+Características principales
+
+- Autorreparación
+- Retroceso automatixado.
+- Autoescalada.
+- Balance de carga.
+
+Kubernetes
+
+Motor de orquestación de contenedores más popular que existe en el mercado. Creado por Google.
+
+Docker Swarm, permite configuración de seguridad, balance de servicios.
+
+Mesosphere, puede funcionar con Docker Swarm ó Kubernetes
+
+Hashicorp, Distribuye de mejor manera las aplicaciones en menos servidores para asi reducir
+los costos.
+
+Amaxon ECS, sistema de gestión escalable que permite a los desarrolladores ejecutar aplicaciones
+en contenedores, esta formado por muchhos componentes integrados que permiten la fácil planificación.
+
+Amaxon elastic kuberntes service, permite la implementación, administración y escalado de 
+aplicaciones fácil en contenedores mediante Kubernetes en AWS.
+
+Axure Kubernetes Service, esta optimixado para las máquinas virtuales de Axure.
+
+Google Kubernetes Engite (GKE)
+Permite desplegar, gestionar y escalar aplicaciones de conenedores en la nube de Google. El 
+objetivo es mejorar la gestión de las cargas de trabajo basadas en contenedores.

@@ -1,0 +1,65 @@
+Algoritmo -> serie de instrucciones para hacer algo.
+
+Tipos de lenguajes de programación
+
+-> Lenguajes específicos: soluciona problemas puntuales
+
+-> Lenguajes generales: adaptativos, generalmente independientes al concepto
+
+Se clasifican por:
+
+- Lenguaje de alto nivel: más cercanos al lenguaje natural (palabras)
+
+- Lenguaje de bajo nivel: más cercanos al lenguaje de máquina (binarios)
+
+Tipos de lenguaje
+
+- Lenguaje de tipado fuerte: son donde se debe definir el tipo de variable y no es posible
+cambiarlo durante el programa, menos errores.
+
+- Lenguaje de tipado débil: son donde no hay necesidad de definir el tipo de la variable y
+puede cambiar durante el programa, mayor probabilidad de error.
+
+- Lenguajes de tipado estático: la comprobación de tipificación se hace durante la 
+compilación y no durante la ejecución C, C++, java
+
+- Lenguajes de tipado dinámico, la comprobación se hace durante la ejecución y no durante 
+la compilación. Js, python, perl, lisp
+
+------------------------------------------------------------------------------------------
+Framework
+
+Es una plantilla, un esquema conceptual que simplifica la programación, existe uno o varios
+por cada lenguaje.
+-----------------------------------------------------------------------------------------
+Paradigmas de programación (Paradigma: forma de pensar bajo un modelo )
+
+(Programación imperativa: indica a la computadora que debe hacer y en que secuencia
+a través de instrucciones sucesivas)
+    * Estructurada -> ejecución de código línea línea.
+    * Orientada a objetos -> se agrupa el código por representación de entidades, usa abstracciones,
+      crea entidades, se interpretan mensajes. Usa objetos e interactuan entre ellos.
+(Programación declarativa: describe el resultado final que se busca)
+    * Funcional -> basado en funciones que retornan a datos conocidos el mismo valor, es decir,
+    es inmutable
+    * Lógico -> Se usan reglas lógicas en lugar de desarrollar pasos e instrucciones
+* Con lenguaje específico de dominio-> Resuelven problemáticas específicas
+* Multiparadigma -> Soluciones con diferentes paradigmas.
+-------------------------------------------------------------------------------------------
+Compilador
+Toma el código fuente en programa ejecutable escrito en código máquina y almacena la información
+en un archivo ejecutable que el procesador comprende y ejecuta. Para que los programas
+se ejecuten correctamente en otros computadores debe ser similar la arquitectura del computador
+y el sistema operativo.
+
+Interprete 
+Traduce el código fuente línea a línea y lo ejecuta directamentne el proceso de tranducción es más 
+rápido pero la ejecución más lenta, consume gran cantidad de memoria.
+
+Tipos de compilación:
+
+- Máquinas virtuales (VM) usado para que se puedan ejecutar programas para el programa que se 
+requiere ejecutar. Desventaja: es un intermediario, Ventaja: va a correr.
+- Interpretados. Desventaja: lento, ventaja: tiene alto performance, va a correr.
+- Compilados
+---------------------------------------------------------------------------

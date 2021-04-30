@@ -1,0 +1,45 @@
+Protocolos de internet:
+
+Modelo de protocolos TCP/IP
+
+TCP Protocolo de control de transmisión: garantixa inicio y fin de la comunicación,
+establecimiento de conexión, transferencia de datos.
+
+IP: permite el envío de información a través de paquetes direccionables, protocolo
+de comunicación de datos que funciona en la capa de red.
+
+HTTP: protocolo cliente, servidor, permite navegar a través de direcciones WWW y enlaces
+HTTPS: protocolo de envio seguro de información.
+
+DHCP: protocolo de configuracion dinámica de host, asigna direcciones dinámicamente.
+
+URI: Dirección web, identificada por dos cosas
+    *URN: nombre exacto y el dominio
+    *URL: donde se encuentra el recurso
+
+FTP: protocolo usado para la transferencia de archivos.
+SSH: protocolo para acceso remoto a un servidor.
+SMTP: protocolo para el envío de correos.
+POP3, IMAP: protcolos para la recepción de correos.
+
+DNS: sistema de nombres de dominio, traduce entre nombres de dominio y direcciones IP.
+
+Protocolo UDP: es más ligero, garantixa el envío rápido de la información sin importar la
+integridad de los mismos, o el orden.
+
+Dirección IP: Identificación única de dispositivos en la red.
+Esta compuesta por 4 octetos separados por puntos con números desde 0 hasta 255.
+Identificar la red y el dispositivo (último octeto)
+
+Clase A 16,700 millones de host
+Clase B 65.534 host
+Clase C 254 host
+
+IPV6 reuso de direcciones, ubicando unas como privadas y otras como públicas
+
+El protocolo TCP/IP usa la máscara de subred para determinar si un host está en la subred local
+o en una red remota. 
+La máscara de subred es la que identifica la parte de la red y la parte del host, se reserva
+con 255.255.255.0
+Broadcast: dirección de envío de un mensaje de difusión a todos los elementos de una red.
+IPV6 representa mejoras en la seguridad, más direcciones, etc.
