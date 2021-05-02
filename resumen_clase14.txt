@@ -1,0 +1,60 @@
+Redes internas
+
+Router: permite interconectar computadoras, estableciendo que rutas seguirán los datos. Ejecuta las siguientes
+acciones: 
+
+    1. Recibe el paquete de datos.
+    2. Busca cuál es la dirección de destino.
+    3. Verifica la tabla de enrutamiento que tiene configurada.
+    4. Procede a enviar el paquete al destino por la mejor ruta posible.
+
+El router usa la tabla de enturamiento para saber a donde enviar un paquete y cuál es el mejor camino.
+
+La tabla de enrutamiento se compone de:
+    * Red de destino.
+    * Siguiente salto, dirección IP por donde viajará el paquete de datos para seguir con su camino
+    hasta el destino.
+    * Interfax de salida: es la interfax de red por donde deben salir los paquetes para llegar posteriormente
+    al destino.
+
+---------------------------Tipos de enrutamiento:-----------------------------------------------
+
+Enrutamiento estático: las tablas se crean de forma manual, el administrador de red las configura con la 
+información de cómo alcanxar las diferentes redes remotas.
+
+Ventajas: consume menos ancho de banda, menos memoria, se usa para redes pequeñas.
+Desventajas: no es escalable, mantenimiento complicado, cualquier cambio en la red requiere que el administrador
+            agregue o elimine las rutas afectadas.
+
+Enrutamiento dinámico: las tablas de enrutamiento se crean dinámicamente entre los routers de la red, estos
+usan protocolos de enrutamiento para intercambiar información con sus routers vecinos.
+
+Ventajas: es automático, se usa para redes grandes, se ajusta solo ante cambios de la red.
+Desventajas: alto consumo de ancho de banda, alto consumo de memoria.
+
+---------------------------------PUERTOS ------------------------------------------------------------------
+
+Los puertos son puntos de conexión para el intercambio de información y la transmisión de datos.
+
+Las conexiones se diferencian a través de puertos, cada dispositivo tiene 65536, cada uno se encarga de algo 
+diferente.
+
+Puertos y su propósito:
+    * FTP: 21
+    * HTTP: 80
+    * SMTP: 25
+    * Aplicaciones y juegos: 1024 - 49151
+    * Privados o dinámicos: 49151 en adelante, corresponden a las aplicaciones que necesitan conectarse a 
+    un servidor.
+
+- Puertos del 0 al 1023: son los que estan reservados para el sistema operativo.
+
+****Redes de direccinamiento externo.
+
+ISP proveedor de servicios de internet.
+Proxy: permite bloquear protocolos para el envio de información entre un cliente y un servidor de red, intercepta
+        conexiones eludiendo el ISP.
+VPN: red virtual privada, tecnología que permite una extensión segura de la red local sobre una red pública.
+        permite usar datos de redes privadas.
+
+        Tor, encripta las conexiones.

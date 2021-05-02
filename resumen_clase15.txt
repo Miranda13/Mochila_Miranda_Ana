@@ -1,0 +1,79 @@
+Seguridad informática:
+
+La seguridad informática se enfoca en la protección de la infraestructura computacional y todo lo vinculado
+con la misma, especialmente, en la información que se transmite a través de las redes de computadoras. 
+Para minimizar todos los riesgos a la infraestructura y a la información se han creado a lo largo de la historia 
+múltiples métodos, como estándares, protocolos, reglas, herramientas y obviamente leyes informáticas.
+
+Tipos de amenaxas:
+
+Virus: tipo de malware que se copia a sí mismo dentro del computador o dispositivo que se dedica destruir o 
+inhabilitar archivos o programas.
+
+Gusanos: usa la red para infectar otros dispositivos, replicar a sí mismo hasta colapsar el sistema.
+
+Troyanos: carga virus, gusanos, esta en programas y licencias ó cracks, crea backdoors para que otros puedan
+controlar el pc.
+
+Adwares: bombardear con publicidad el dispositivo.
+
+Spywares: roba la información, contraseñas, información bancaria, acceder al microfono ó cámara.
+
+Rootkits: Tienen acceso al sistema o kernerl, cuentas de usuario, se esconden de los antimalware.
+
+Botnet: se usan para cometer robos.
+
+Ransomware: secuestrar servicios o productos y pide dinero a las empresas, archivos adjuntos.
+
+-----------------------------------------------------------------------------------------
+Atributos de la información:
+C I A : confidencialidad, integridad, disponibilidad.
+
+confidencialidad: información que solo debe ser expuesta para las personas que tienen el acceso.
+Integridad: consiste en tener la información completa, entera y que los datos sean los que deben ser.
+disponibilidad: que los usuarios puedan tener acceso a la información en el omento en que sea necesario.
+
+Los atacantes van a intentar vulnerar cualquiera a los atributos de la información.
+
+Técnicas para asegurar la confiabilidad:
+
+    * Encriptación.
+    * Control de acceso.
+    * Borrado remoto.
+    * Capacitación al personal, acerca de prácticas frecuentes.
+
+Técnicas para asegurar la integridad:
+
+    * Auditorias.
+    * El control de versiones.
+    * Firmas digitales.
+    * Detección de intrusos.
+
+Técnicas para asegurar la disponibilidad:
+
+    * Tolerancia a fallos.
+    * Redundancia.
+    * Parches de seguridad.
+
+Fallas ó bug: error en un programa o sistema operativo que desencadena un resultado indeseado.
+
+Tipos de fallos:
+
+    - Heisenburg: cuando se necesita depurarlos desaparecen su comportamiento.
+    - Bohrbug: error de software que se produce al reiniciar la operación que causó la falla.
+    - Mandelbug: el error tiene comportamiento caótico.
+    - Schroedinburgs: solo aparece hasta cuando alguien lee el código y deduce que en determinadas 
+    circunstancias el error se puede dar.
+
+Vulnerabilidad: es una debilidad del sistema que puede poner en riesgo la información CIA.
+
+Pasos para detectar una vulnerabilidad:
+
+- Evaluar como esta constituida la red e infraestructura de la empresa.
+- Delimitar quien puede y debe acceder a la informacion confidencial.
+- Probar que las copias de seguridad realixadas funcionen.
+- Identificar las partes más sensibles y esenciales del sistema.
+- Realixar auditorías del estado de la seguridad informática.
+
+
+
