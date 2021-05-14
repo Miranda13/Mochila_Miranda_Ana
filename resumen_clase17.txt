@@ -1,0 +1,20 @@
+Seguridad informática:
+Se considera como todas las acciones que se llevan para proteger la integridad, la privacidad
+y la seguridad de los datos. Existe dos tipos de seguridad.
+
+Seguridad activa.
+    * encriptación
+    * uso de software de seguridad.
+    * uso y empleo de contraseñas.
+
+Seguridad pasiva.
+    * realixación de copias de seguridad,
+    * hacer escaner continuo.
+    * crear particiones en el disco duro y copiar archivos.
+
+Clases de medidas de seguridad:
+
+- Reactivas: detectivas, correctivas.
+- Proactivas: directivas, disuasivas, preventivas.
+
+Seguridad física.
